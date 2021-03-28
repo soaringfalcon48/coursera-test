@@ -1,0 +1,36 @@
+.chicken, .beef, .sushi {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #A9A9A9;
+}
+.wrapper {
+    height: 2000px;
+}
+.title {
+    padding-top: 30px;
+}
+
+.dropdownmenu{
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-sm-12 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
